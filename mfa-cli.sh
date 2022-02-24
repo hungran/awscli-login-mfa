@@ -16,7 +16,7 @@ if [ -z ${MFA_CODE}]; then
     exit 1
 fi
 
-COMMAND=`/usr/local/bin/aws --profile VTIA --output text sts get-session-token \
+COMMAND=`/usr/local/bin/aws --output text sts get-session-token \
     --serial-number $MFA_DEVICE_ARN \
     --token-code $MFA_CODE`
 
