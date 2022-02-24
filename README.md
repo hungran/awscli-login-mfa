@@ -1,4 +1,4 @@
-# awscli-login-mfa-with-sso
+# awscli-login-mfa
 ## Preq
 - AWS AccessKey & SecretKey available in your ./aws/credentials
 ## using OSx:
