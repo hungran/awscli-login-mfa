@@ -2,10 +2,6 @@
 # . ./mfa-cli.sh to run on current working shell
 # specify your MFA_DEVICE_ARN
 
-if [ -z ${MFA_DEVICE_ARN}]; then
-    echo "Please specify the MFA_DEVICE_ARN"
-    exit 1
-fi
 vared -p 'Please enter MFA ARN: ' -c MFA_DEVICE_ARN
 echo "You entered '$MFA_CODE'"
 vared -p 'Please enter MFA code: ' -c MFA_CODE
