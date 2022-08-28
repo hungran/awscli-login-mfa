@@ -1,4 +1,5 @@
 #!/bin/zsh 
+set -eu
 # . ./mfa-cli.sh to run on current working shell
 # specify your MFA_DEVICE_ARN
 
